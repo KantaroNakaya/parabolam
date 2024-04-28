@@ -1,184 +1,199 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="本サイトは架空のバーのサイトです。ポートフォリオ用に制作しました。"/>
+    <title>(架空のバー ) PARABOLAM お問い合わせページ</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="心斎橋駅から徒歩4分のカジュアル＆オーセンティックバー！
-不定期でDJイベントなどを開催しています。
-インスタ映えするドリンクとフードのメニューを多数ご用意！">
-
-    <title>心斎橋駅前バー　PARABOLAM お問い合わせページ</title>
-    
-    
     <!--ファビコンのリンク-->
-    <link rel="apple-touch-icon" type="image/png" href="favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="favicon/icon-192x192.png">
-    
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="favicon/apple-touch-icon-180x180.png"
+    />
+    <link rel="icon" type="image/png" href="favicon/icon-192x192.png" />
+
     <!-- Googleフォント　-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Noto+Serif+JP&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Noto+Serif+JP&display=swap"
+      rel="stylesheet"
+    />
+
     <!--自作cssのリンク-->
-    <link href="css/destyle.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/destyle.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!-- fontawesomeのリンク -->
-    <link rel="stylesheet"
-              href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
     <!-- slickのリンク -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <!-- fontawesomeのスクリプト -->
-    <script src="https://kit.fontawesome.com/d21f62b8c0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d21f62b8c0.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- slickのスクリプト -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- 自作js -->
     <script src="js/script.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-    
-        <!--  スマホ画面のみ　ヘッダーナビゲーション 固定しない  -->
-        <div class="headerNav">
-            <!-- ロゴをヘッダーの真ん中に -->
-            <a class="navLogo" href="index.html">
-                <img src="img/bar_logo.png" alt="">
+      <!--  スマホ画面のみ　ヘッダーナビゲーション 固定しない  -->
+      <div class="headerNav">
+        <!-- ロゴをヘッダーの真ん中に -->
+        <a class="navLogo" href="index.html">
+          <img src="img/bar_logo.png" alt="" />
+        </a>
+        <!-- 右上に問い合わせロゴ -->
+        <a class="navContact" href="contact.html">
+          <img src="img/contact_logo.png" alt="お問い合わせ" />
+        </a>
+      </div>
+
+      <!-- 画面幅768px以上のとき -->
+      <div class="bgHeader">
+        <!-- 両端を空ける -->
+        <div class="headerBox centerBox">
+          <!-- ロゴをヘッダーの左に -->
+          <a class="boxLogo" href="index.html">
+            <img src="img/bar_logo.png" alt="" />
+          </a>
+
+          <!-- 右上に4つのロゴ画像（menu,map,news,contact） -->
+          <div class="headerLink">
+            <a class="headerImg" href="menu.html">
+              <img src="img/menu_logo.png" 　alt="メニュー" />
             </a>
-            <!-- 右上に問い合わせロゴ -->
-            <a class="navContact" href="contact.html">
-                <img src="img/contact_logo.png" alt="お問い合わせ">
+            <a class="headerImg" href="map.html">
+              <img src="img/map_logo.png" 　alt="マップ" />
             </a>
+            <a class="headerImg" href="news.html">
+              <img src="img/news_logo.png" 　alt="ニュース" />
+            </a>
+            <a class="headerImg" href="contact.html">
+              <img src="img/contact_logo.png" 　alt="お問い合わせ" />
+            </a>
+          </div>
         </div>
-
-        <!-- 画面幅768px以上のとき -->
-        <div class="bgHeader">
-
-            <!-- 両端を空ける -->
-            <div class="headerBox centerBox">
-            
-                <!-- ロゴをヘッダーの左に -->
-                <a class="boxLogo" href="index.html">
-                    <img src="img/bar_logo.png" alt="">
-                </a>
-                
-                <!-- 右上に4つのロゴ画像（menu,map,news,contact） -->
-                <div class="headerLink">
-                    <a class="headerImg" href="menu.html">
-                        <img src="img/menu_logo.png"　alt="メニュー">
-                    </a>
-                    <a class="headerImg" href="map.html">
-                        <img src="img/map_logo.png"　alt="マップ">
-                    </a>
-                    <a class="headerImg" href="news.html">
-                        <img src="img/news_logo.png"　alt="ニュース">
-                    </a>
-                    <a class="headerImg" href="contact.html">
-                        <img src="img/contact_logo.png"　alt="お問い合わせ">
-                    </a>
-                </div>
-                
-            </div>
-        </div>
-
+      </div>
     </header>
 
-
     <main>
-        <!-- 画面幅768px以上のとき、両端を空ける -->
-        <div class="centerBox">
-
-            <h1>CONTACT</h1>
-            <div class="Form">
-                <div class="Form-Item">
-                  <p class="Form-Item-Label">
-                    <span class="Form-Item-Label-Required">必須</span>ご用件
-                  </p>
-                  <input type="text" class="Form-Item-Input" placeholder="ご用件をお書きください。">
-                </div>
-                <div class="Form-Item">
-                  <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
-                  <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
-                </div>
-                <div class="Form-Item">
-                  <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
-                  <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
-                </div>
-                <div class="Form-Item">
-                  <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
-                  <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
-                </div>
-                <div class="Form-Item">
-                  <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
-                  <textarea class="Form-Item-Textarea"></textarea>
-                </div> 
-                <div class="contactBtn">
-                    <input type="submit" class="Form-Btn" value="送信する">
-                </div>
-                
-              </div>
-
+      <!-- 画面幅768px以上のとき、両端を空ける -->
+      <div class="centerBox">
+        <h1>CONTACT</h1>
+        <div class="Form">
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>ご用件
+            </p>
+            <input
+              type="text"
+              class="Form-Item-Input"
+              placeholder="ご用件をお書きください。"
+            />
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>お名前
+            </p>
+            <input
+              type="text"
+              class="Form-Item-Input"
+              placeholder="例）山田太郎"
+            />
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>電話番号
+            </p>
+            <input
+              type="text"
+              class="Form-Item-Input"
+              placeholder="例）000-0000-0000"
+            />
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>メールアドレス
+            </p>
+            <input
+              type="email"
+              class="Form-Item-Input"
+              placeholder="例）example@gmail.com"
+            />
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label isMsg">
+              <span class="Form-Item-Label-Required">必須</span>お問い合わせ内容
+            </p>
+            <textarea class="Form-Item-Textarea"></textarea>
+          </div>
+          <div class="contactBtn">
+            <input type="submit" class="Form-Btn" value="送信する" />
+          </div>
         </div>
-
-
+      </div>
     </main>
 
-
     <footer>
-        <div class="footerBox centerBox">
-            <div class="snsBox"> 
-                <h3>FOLLOW</h3>
-                <div class="snsIcon">   
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-twitter" alt="twitterロゴ"></i>
-                    </a>
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-instagram" alt="instagramロゴ"></i>
-                    </a>
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-facebook-f" alt="facebookロゴ"></i>
-                    </a>
-                </div>
-            </div>  
-
-            <a class="footerLogo" href="index.html">
-                <img src="img/bar_logo.png" alt=""　loading="lazy">
+      <div class="footerBox centerBox">
+        <div class="snsBox">
+          <h3>FOLLOW</h3>
+          <div class="snsIcon">
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-twitter" alt="twitterロゴ"></i>
             </a>
-
-            <a class="footerLogoType" href="index.html">
-                <img src="img/bar_logotype_homepage.png" alt=""　loading="lazy">
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-instagram" alt="instagramロゴ"></i>
             </a>
-
-            <p class="copyright">copyright Parabolam CORP.-All Rights Reserved</p>
-            
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-facebook-f" alt="facebookロゴ"></i>
+            </a>
+          </div>
         </div>
+
+        <a class="footerLogo" href="index.html">
+          <img src="img/bar_logo.png" alt="" 　loading="lazy" />
+        </a>
+
+        <a class="footerLogoType" href="index.html">
+          <img src="img/bar_logotype_homepage.png" alt="" 　loading="lazy" />
+        </a>
+
+        <p class="copyright">copyright Parabolam CORP.-All Rights Reserved</p>
+      </div>
     </footer>
-    
+
     <!--「ページ内のトップに戻る」ボタン   -->
     <div id="js-pagetop">
-        <span>TOP</span>
+      <span>TOP</span>
     </div>
-    
+
     <!--  スマホ画面のみ　ボトムナビゲーション  固定する　-->
     <div class="bottomNav">
-        <a class="bottomLink" href="menu.html">
-            <img src="img/bottom/menu_logo_bottom.png"　alt="メニューページへ">
-        </a>
-        <a class="bottomLink" href="map.html">
-            <img src="img/bottom/map_logo_bottom.png"　alt="マップページへ">
-        </a>
-        <a class="bottomLink" href="news.html">
-            <img src="img/bottom/news_logo_bottom.png"　alt="ニュースページへ">
-        </a>
+      <a class="bottomLink" href="menu.html">
+        <img src="img/bottom/menu_logo_bottom.png" 　alt="メニューページへ" />
+      </a>
+      <a class="bottomLink" href="map.html">
+        <img src="img/bottom/map_logo_bottom.png" 　alt="マップページへ" />
+      </a>
+      <a class="bottomLink" href="news.html">
+        <img src="img/bottom/news_logo_bottom.png" 　alt="ニュースページへ" />
+      </a>
     </div>
-
-</body>
-
-
-
-
-
+  </body>
 </html>

@@ -1,235 +1,223 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="本サイトは架空のバーのサイトです。ポートフォリオ用に制作しました。"/>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="心斎橋駅から徒歩4分のカジュアル＆オーセンティックバー！
-不定期でDJイベントなどを開催しています。
-インスタ映えするドリンクとフードのメニューを多数ご用意！">
-
-    <title>心斎橋駅前バー　PARABOLAM ニュース</title>
+    <title>(架空のバー ) PARABOLAM ニュース</title>
 
     <!--ファビコンのリンク-->
-    <link rel="apple-touch-icon" type="image/png" href="favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="favicon/icon-192x192.png">
-    
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="favicon/apple-touch-icon-180x180.png"
+    />
+    <link rel="icon" type="image/png" href="favicon/icon-192x192.png" />
+
     <!-- Googleフォント　-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Noto+Serif+JP&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Noto+Serif+JP&display=swap"
+      rel="stylesheet"
+    />
+
     <!--自作cssのリンク-->
-    <link href="css/destyle.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    
+    <link href="css/destyle.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
     <!-- fontawesomeのリンク -->
-    <link rel="stylesheet"
-              href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
     <!-- slickのリンク -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <!-- fontawesomeのスクリプト -->
-    <script src="https://kit.fontawesome.com/d21f62b8c0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d21f62b8c0.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- slickのスクリプト -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- 自作js -->
     <script src="js/script.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-    
-        <!--  スマホ画面のみ　ヘッダーナビゲーション 固定しない  -->
-        <div class="headerNav">
-            <!-- ロゴをヘッダーの真ん中に -->
-            <a class="navLogo" href="index.html">
-                <img src="img/bar_logo.png" alt="">
+      <!--  スマホ画面のみ　ヘッダーナビゲーション 固定しない  -->
+      <div class="headerNav">
+        <!-- ロゴをヘッダーの真ん中に -->
+        <a class="navLogo" href="index.html">
+          <img src="img/bar_logo.png" alt="" />
+        </a>
+        <!-- 右上に問い合わせロゴ -->
+        <a class="navContact" href="contact.html">
+          <img src="img/contact_logo.png" alt="お問い合わせ" />
+        </a>
+      </div>
+
+      <!-- 画面幅768px以上のとき -->
+      <div class="bgHeader">
+        <!-- 両端を空ける -->
+        <div class="headerBox centerBox">
+          <!-- ロゴをヘッダーの左に -->
+          <a class="boxLogo" href="index.html">
+            <img src="img/bar_logo.png" alt="" />
+          </a>
+
+          <!-- 右上に4つのロゴ画像（menu,map,news,contact） -->
+          <div class="headerLink">
+            <a class="headerImg" href="menu.html">
+              <img src="img/menu_logo.png" 　alt="メニュー" />
             </a>
-            <!-- 右上に問い合わせロゴ -->
-            <a class="navContact" href="contact.html">
-                <img src="img/contact_logo.png" alt="お問い合わせ">
+            <a class="headerImg" href="map.html">
+              <img src="img/map_logo.png" 　alt="マップ" />
             </a>
+            <a class="headerImg" href="news.html">
+              <img src="img/news_logo.png" 　alt="ニュース" />
+            </a>
+            <a class="headerImg" href="contact.html">
+              <img src="img/contact_logo.png" 　alt="お問い合わせ" />
+            </a>
+          </div>
         </div>
-
-        <!-- 画面幅768px以上のとき -->
-        <div class="bgHeader">
-
-            <!-- 両端を空ける -->
-            <div class="headerBox centerBox">
-            
-                <!-- ロゴをヘッダーの左に -->
-                <a class="boxLogo" href="index.html">
-                    <img src="img/bar_logo.png" alt="">
-                </a>
-                
-                <!-- 右上に4つのロゴ画像（menu,map,news,contact） -->
-                <div class="headerLink">
-                    <a class="headerImg" href="menu.html">
-                        <img src="img/menu_logo.png"　alt="メニュー">
-                    </a>
-                    <a class="headerImg" href="map.html">
-                        <img src="img/map_logo.png"　alt="マップ">
-                    </a>
-                    <a class="headerImg" href="news.html">
-                        <img src="img/news_logo.png"　alt="ニュース">
-                    </a>
-                    <a class="headerImg" href="contact.html">
-                        <img src="img/contact_logo.png"　alt="お問い合わせ">
-                    </a>
-                </div>
-                
-            </div>
-        </div>
-
+      </div>
     </header>
 
-
     <main>
-        <!-- 画面幅768px以上のとき、両端を空ける -->
-        <div class="centerBox">
-            <h1>NEWS</h1>
+      <!-- 画面幅768px以上のとき、両端を空ける -->
+      <div class="centerBox">
+        <h1>NEWS</h1>
 
-            <div class="flex">
-
-                <!-- 1記事目 -->
-                <div class="article">
-                    <div class="newsTitle">
-                        <h4>DJイベント「mesopotamian」<br>開催のお知らせ</h4>
-                    </div>
-                    <div class="newsImg">
-                        <img src="img/news/dj_performer.jpg"　alt=""　loading="lazy">
-                    </div>
-                    <div class="newsContent">
-                        <p>
-                            2022年12月10日19時からABCDDEさんによるDJイベント「mesopotamian」を開催します。
-                        </p>
-                    </div>
-                    
-                </div>
-
-                <!-- 2記事目 -->
-                <div class="article">
-                    <div class="newsTitle">
-                        <h4>バーなのに!？HAPPY HOURやってます！</h4>
-                    </div>
-                    <div class="newsImg">
-                        <img src="img/news/happyHour.jpg"　alt=""　loading="lazy">
-                    </div>
-                    <div class="newsContent">
-                        <p>
-                            コロナ自粛解禁以降、HAPPY HOURを開催しています。
-                            月曜・水曜の16時から19時までは「ドリンク1杯目半額」です！
-                            気軽にお越しください。
-                        </p>
-                    </div>
-                </div>
-
-                <!-- 3記事目 -->
-                <div class="article">
-                    <div class="newsTitle">
-                        <h4>ハロウィンイベント「cosplay-championship」<br>開催のお知らせ</h4>
-                    </div>
-                    <div class="newsImg">
-                        <img src="img/news/zombie.jpg"　alt=""　loading="lazy">
-                    </div>
-                    <div class="newsContent">
-                        <p>
-                            2022年もハロウィンイベント「cosplay-championship」を開催いたします。
-                            日程は10月31日20時から22時までの2時間。
-                            「最もクオリティの高い仮装をしている人」と
-                            「最もユーモアのある仮装をしている人」を決めます。
-                            エントリー対象者は仮装来店者様、審査員はカウンター席着席者8名です。
-                            詳細は「BAR PARABOLAM」のSNSアカウントをご確認ください。
-
-                        </p>
-                    </div>
-                    
-                </div>
-
-                <!-- 4記事目 -->
-                <div class="article">
-                    <div class="newsTitle">
-                        <h4>パーフォーマー募集中！</h4>
-                    </div>
-                    <div class="newsImg">
-                        <img src="img/news/mic.jpg"　alt=""　loading="lazy">
-                    </div>
-                    <div class="newsContent">
-                        <p>
-                            ジャンルは問いません。
-                            音楽やお笑いはもちろん、新しいジャンルを開拓したいという方も大歓迎です。
-                            当サイトにお問い合わせページがありますので、ご希望の方はそちらからご連絡ください。
-                        </p>
-                    </div>
-                </div>
-
-                
-
-                
-                
-
+        <div class="flex">
+          <!-- 1記事目 -->
+          <div class="article">
+            <div class="newsTitle">
+              <h4>DJイベント「mesopotamian」<br />開催のお知らせ</h4>
             </div>
+            <div class="newsImg">
+              <img src="img/news/dj_performer.jpg" 　alt="" 　loading="lazy" />
+            </div>
+            <div class="newsContent">
+              <p>
+                2022年12月10日19時からABCDDEさんによるDJイベント「mesopotamian」を開催します。
+              </p>
+            </div>
+          </div>
+
+          <!-- 2記事目 -->
+          <div class="article">
+            <div class="newsTitle">
+              <h4>バーなのに!？HAPPY HOURやってます！</h4>
+            </div>
+            <div class="newsImg">
+              <img src="img/news/happyHour.jpg" 　alt="" 　loading="lazy" />
+            </div>
+            <div class="newsContent">
+              <p>
+                コロナ自粛解禁以降、HAPPY HOURを開催しています。
+                月曜・水曜の16時から19時までは「ドリンク1杯目半額」です！
+                気軽にお越しください。
+              </p>
+            </div>
+          </div>
+
+          <!-- 3記事目 -->
+          <div class="article">
+            <div class="newsTitle">
+              <h4>
+                ハロウィンイベント「cosplay-championship」<br />開催のお知らせ
+              </h4>
+            </div>
+            <div class="newsImg">
+              <img src="img/news/zombie.jpg" 　alt="" 　loading="lazy" />
+            </div>
+            <div class="newsContent">
+              <p>
+                2022年もハロウィンイベント「cosplay-championship」を開催いたします。
+                日程は10月31日20時から22時までの2時間。
+                「最もクオリティの高い仮装をしている人」と
+                「最もユーモアのある仮装をしている人」を決めます。
+                エントリー対象者は仮装来店者様、審査員はカウンター席着席者8名です。
+                詳細は「BAR PARABOLAM」のSNSアカウントをご確認ください。
+              </p>
+            </div>
+          </div>
+
+          <!-- 4記事目 -->
+          <div class="article">
+            <div class="newsTitle">
+              <h4>パーフォーマー募集中！</h4>
+            </div>
+            <div class="newsImg">
+              <img src="img/news/mic.jpg" 　alt="" 　loading="lazy" />
+            </div>
+            <div class="newsContent">
+              <p>
+                ジャンルは問いません。
+                音楽やお笑いはもちろん、新しいジャンルを開拓したいという方も大歓迎です。
+                当サイトにお問い合わせページがありますので、ご希望の方はそちらからご連絡ください。
+              </p>
+            </div>
+          </div>
         </div>
-
-
+      </div>
     </main>
 
-
     <footer>
-        <div class="footerBox centerBox">
-            <div class="snsBox"> 
-                <h3>FOLLOW</h3>
-                <div class="snsIcon">   
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-twitter" alt="twitterロゴ"></i>
-                    </a>
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-instagram" alt="instagramロゴ"></i>
-                    </a>
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-facebook-f" alt="facebookロゴ"></i>
-                    </a>
-                </div>
-            </div>  
-
-            <a class="footerLogo" href="index.html">
-                <img src="img/bar_logo.png" alt=""　loading="lazy">
+      <div class="footerBox centerBox">
+        <div class="snsBox">
+          <h3>FOLLOW</h3>
+          <div class="snsIcon">
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-twitter" alt="twitterロゴ"></i>
             </a>
-
-            <a class="footerLogoType" href="index.html">
-                <img src="img/bar_logotype_homepage.png" alt=""　loading="lazy">
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-instagram" alt="instagramロゴ"></i>
             </a>
-
-            <p class="copyright">copyright Parabolam CORP.-All Rights Reserved</p>
-            
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-facebook-f" alt="facebookロゴ"></i>
+            </a>
+          </div>
         </div>
+
+        <a class="footerLogo" href="index.html">
+          <img src="img/bar_logo.png" alt="" 　loading="lazy" />
+        </a>
+
+        <a class="footerLogoType" href="index.html">
+          <img src="img/bar_logotype_homepage.png" alt="" 　loading="lazy" />
+        </a>
+
+        <p class="copyright">copyright Parabolam CORP.-All Rights Reserved</p>
+      </div>
     </footer>
-    
+
     <!--「ページ内のトップに戻る」ボタン   -->
     <div id="js-pagetop">
-        <span>TOP</span>
+      <span>TOP</span>
     </div>
-    
+
     <!--  スマホ画面のみ　ボトムナビゲーション  固定する　-->
     <div class="bottomNav">
-        <a class="bottomLink" href="menu.html">
-            <img src="img/bottom/menu_logo_bottom.png"　alt="メニューページへ">
-        </a>
-        <a class="bottomLink" href="map.html">
-            <img src="img/bottom/map_logo_bottom.png"　alt="マップページへ">
-        </a>
-        <a class="bottomLink" href="news.html">
-            <img src="img/bottom/news_logo_bottom.png"　alt="ニュースページへ">
-        </a>
+      <a class="bottomLink" href="menu.html">
+        <img src="img/bottom/menu_logo_bottom.png" 　alt="メニューページへ" />
+      </a>
+      <a class="bottomLink" href="map.html">
+        <img src="img/bottom/map_logo_bottom.png" 　alt="マップページへ" />
+      </a>
+      <a class="bottomLink" href="news.html">
+        <img src="img/bottom/news_logo_bottom.png" 　alt="ニュースページへ" />
+      </a>
     </div>
-
-</body>
-
-
-
-
-
+  </body>
 </html>

@@ -1,209 +1,220 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="本サイトは架空のバーのサイトです。ポートフォリオ用に制作しました。"/>
+    <title>(架空のバー ) PARABOLAM トップページ</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="心斎橋駅から徒歩4分のカジュアル＆オーセンティックバー！
-不定期でDJイベントなどを開催しています。
-インスタ映えするドリンクとフードのメニューを多数ご用意！">
-
-    <title>心斎橋駅前バー　PARABOLAM トップページ</title>
-    
     <!--ファビコンのリンク-->
-    <link rel="apple-touch-icon" type="image/png" href="favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="favicon/icon-192x192.png">
-    
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="favicon/apple-touch-icon-180x180.png"
+    />
+    <link rel="icon" type="image/png" href="favicon/icon-192x192.png" />
+
     <!-- Googleフォント　-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Noto+Serif+JP&display=swap"
+      rel="stylesheet"
+    />
+
     <!--自作cssのリンク-->
-    <link href="css/destyle.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    
+    <link href="css/destyle.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
     <!-- fontawesomeのリンク -->
-    <link rel="stylesheet"
-              href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-              
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+
     <!-- slickのリンク -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
     <!-- fontawesomeのスクリプト -->
-    <script src="https://kit.fontawesome.com/d21f62b8c0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d21f62b8c0.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- slickのスクリプト -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- 自作js -->
     <script src="js/script.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-    
-        <!--  スマホ画面のみ　ヘッダーナビゲーション 固定しない  -->
-        <div class="headerNav">
-            <!-- ロゴをヘッダーの真ん中に -->
-            <a class="navLogo" href="index.html">
-                <img src="img/bar_logo.png" alt="">
+      <!--  スマホ画面のみ　ヘッダーナビゲーション 固定しない  -->
+      <div class="headerNav">
+        <!-- ロゴをヘッダーの真ん中に -->
+        <a class="navLogo" href="index.html">
+          <img src="img/bar_logo.png" alt="" />
+        </a>
+        <!-- 右上に問い合わせロゴ -->
+        <a class="navContact" href="contact.html">
+          <img src="img/contact_logo.png" alt="お問い合わせ" />
+        </a>
+      </div>
+
+      <!-- 画面幅768px以上のとき -->
+      <div class="bgHeader">
+        <!-- 両端を空ける -->
+        <div class="headerBox centerBox">
+          <!-- ロゴをヘッダーの左に -->
+          <a class="boxLogo" href="index.html">
+            <img src="img/bar_logo.png" alt="" />
+          </a>
+
+          <!-- 右上に4つのロゴ画像（menu,map,news,contact） -->
+          <div class="headerLink">
+            <a class="headerImg" href="menu.html">
+              <img src="img/menu_logo.png" alt="メニュー" />
             </a>
-            <!-- 右上に問い合わせロゴ -->
-            <a class="navContact" href="contact.html">
-                <img src="img/contact_logo.png" alt="お問い合わせ">
+            <a class="headerImg" href="map.html">
+              <img src="img/map_logo.png" alt="マップ" />
             </a>
+            <a class="headerImg" href="news.html">
+              <img src="img/news_logo.png" alt="ニュース" />
+            </a>
+            <a class="headerImg" href="contact.html">
+              <img src="img/contact_logo.png" alt="お問い合わせ" />
+            </a>
+          </div>
         </div>
-
-        <!-- 画面幅768px以上のとき -->
-        <div class="bgHeader">
-
-            <!-- 両端を空ける -->
-            <div class="headerBox centerBox">
-            
-                <!-- ロゴをヘッダーの左に -->
-                <a class="boxLogo" href="index.html">
-                    <img src="img/bar_logo.png" alt="">
-                </a>
-                
-                <!-- 右上に4つのロゴ画像（menu,map,news,contact） -->
-                <div class="headerLink">
-                    <a class="headerImg" href="menu.html">
-                        <img src="img/menu_logo.png" alt="メニュー">
-                    </a>
-                    <a class="headerImg" href="map.html">
-                        <img src="img/map_logo.png" alt="マップ">
-                    </a>
-                    <a class="headerImg" href="news.html">
-                        <img src="img/news_logo.png" alt="ニュース">
-                    </a>
-                    <a class="headerImg" href="contact.html">
-                        <img src="img/contact_logo.png" alt="お問い合わせ">
-                    </a>
-                </div>
-                
-            </div>
-        </div>
-
+      </div>
     </header>
-
-
     <main>
-
-        <!-- 画面幅768px以上のときは両端を空ける。
+      <!-- 画面幅768px以上のときは両端を空ける。
             スマホ画面のときは画面いっぱいに。 -->
-        <div class="mainBox centerBox">
+      <div class="mainBox centerBox">
+        <!-- ファーストビュー -->
+        <div class="slider">
+          <img
+            class="slider-item"
+            src="img/first-view/bar_coolBg.jpg"
+            　alt=""
+          />
+          <img
+            class="slider-item"
+            src="img/first-view/wineBottles.jpg"
+            　alt=""
+          />
+          <img class="slider-item" src="img/first-view/dj_event.jpg" 　alt="" />
+        </div>
 
-                <!-- ファーストビュー -->
-                <div class="slider">
-                    <img class="slider-item" src="img/first-view/bar_coolBg.jpg"　alt="">
-                    <img class="slider-item" src="img/first-view/wineBottles.jpg"　alt="">
-                    <img class="slider-item" src="img/first-view/dj_event.jpg"　alt="">
-                </div>
+        <!-- ファーストビューのド真ん中に上から画像を載せる -->
+        <div class="intro">
+          <img
+            src="img/intro_image.png"
+            alt="「非日常空間バーPARABOLAM」のロゴタイプ画像"
+          />
+        </div>
 
-                <!-- ファーストビューのド真ん中に上から画像を載せる -->
-                <div class="intro">
-                    <img src="img/intro_image.png" alt="「非日常空間バーPARABOLAM」のロゴタイプ画像">
-                </div>
-
-            <div class="flex">
-                <!-- お店の魅力を紹介 -->
-                <div class="whiteBox">
-                    <div class="heading08">
-                        <span>CHARM01</span>
-                        <h2>バーなのに<br>オープンな空間</h2>
-                    </div>
-                    <p>ここは「常連客同士で楽しむバー」ではありません。住む場所も国籍も生活スタイルも関係ない。異なったバックグラウンドを持ったもの同士が酒とメシと場を楽しむ空間。それが「BAR PARABOLAM」。</p>
-                    <img src="img/charm/monkeyBeer.jpg" alt="" loading="lazy">
-                </div>
-                
-                <div class="whiteBox">
-                    <div class="heading08">
-                        <span>CHARM02</span>
-                        <h2>SNS映えする<br>ドリンク&フード</h2>
-                    </div>
-                    <p>ただ「今」を楽しむのではない。翌日以降にも残る記憶や記録たち、どうせだったらより良いものにしたい。「BAR PARABOLAM」ではそんな「今」を作ることができます。
-                    </p>
-                    <img src="img/charm/sns-drink.jpg" alt="" loading="lazy">
-                </div>
-
-                <div class="whiteBox">
-                    <div class="heading08">
-                        <span>CHARM03</span>
-                        <h2>不定期で<br>イベントを開催</h2>
-                    </div>
-                    <p>不定期で「DJイベント」や「お笑いライブ」などを開催しています。イベント情報は、本サイトのNEWSページまたはPARABOLAMのSNSアカウントで見られます。</p>
-                    <img src="img/charm/dj-image.jpg" alt="" loading="lazy">
-                </div>
-
-                <div class="whiteBox">
-                    <div class="heading08">
-                        <span>CHARM04</span>
-                        <h2>心斎橋駅から<br>徒歩4分</h2>
-                    </div>
-                    <p>ふらっと立ち寄れる場所です。前もっての予定などはいりません。その日の、そのときのテンションに任せて遊べます。</p>
-                    <img  class="space" src="img/charm/town.jpg" alt="" loading="lazy">
-                </div>
+        <div class="flex">
+          <!-- お店の魅力を紹介 -->
+          <div class="whiteBox">
+            <div class="heading08">
+              <span>CHARM01</span>
+              <h2>バーなのに<br />オープンな空間</h2>
             </div>
+            <p>
+              ここは「常連客同士で楽しむバー」ではありません。住む場所も国籍も生活スタイルも関係ない。異なったバックグラウンドを持ったもの同士が酒とメシと場を楽しむ空間。それが「BAR
+              PARABOLAM」。
+            </p>
+            <img src="img/charm/monkeyBeer.jpg" alt="" loading="lazy" />
+          </div>
+
+          <div class="whiteBox">
+            <div class="heading08">
+              <span>CHARM02</span>
+              <h2>SNS映えする<br />ドリンク&フード</h2>
+            </div>
+            <p>
+              ただ「今」を楽しむのではない。翌日以降にも残る記憶や記録たち、どうせだったらより良いものにしたい。「BAR
+              PARABOLAM」ではそんな「今」を作ることができます。
+            </p>
+            <img src="img/charm/sns-drink.jpg" alt="" loading="lazy" />
+          </div>
+
+          <div class="whiteBox">
+            <div class="heading08">
+              <span>CHARM03</span>
+              <h2>不定期で<br />イベントを開催</h2>
+            </div>
+            <p>
+              不定期で「DJイベント」や「お笑いライブ」などを開催しています。イベント情報は、本サイトのNEWSページまたはPARABOLAMのSNSアカウントで見られます。
+            </p>
+            <img src="img/charm/dj-image.jpg" alt="" loading="lazy" />
+          </div>
+
+          <div class="whiteBox">
+            <div class="heading08">
+              <span>CHARM04</span>
+              <h2>心斎橋駅から<br />徒歩4分</h2>
+            </div>
+            <p>
+              ふらっと立ち寄れる場所です。前もっての予定などはいりません。その日の、そのときのテンションに任せて遊べます。
+            </p>
+            <img class="space" src="img/charm/town.jpg" alt="" loading="lazy" />
+          </div>
         </div>
-
-
+      </div>
     </main>
-
-
     <footer>
-        <div class="footerBox centerBox">
-            <div class="snsBox"> 
-                <h3>FOLLOW</h3>
-                <div class="snsIcon">   
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-twitter" alt="twitterロゴ"></i>
-                    </a>
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-instagram" alt="instagramロゴ"></i>
-                    </a>
-                    <a class="snsLink">
-                        <i class="fa-brands fa-3x fa-facebook-f" alt="facebookロゴ"></i>
-                    </a>
-                </div>
-            </div>  
-
-            <a class="footerLogo" href="index.html">
-                <img src="img/bar_logo.png" alt="" loading="lazy">
+      <div class="footerBox centerBox">
+        <div class="snsBox">
+          <h3>FOLLOW</h3>
+          <div class="snsIcon">
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-twitter" alt="twitterロゴ"></i>
             </a>
-
-            <a class="footerLogoType" href="index.html">
-                <img src="img/bar_logotype_homepage.png" alt="" loading="lazy">
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-instagram" alt="instagramロゴ"></i>
             </a>
-
-            <p class="copyright">copyright Parabolam CORP.-All Rights Reserved</p>
-            
+            <a class="snsLink">
+              <i class="fa-brands fa-3x fa-facebook-f" alt="facebookロゴ"></i>
+            </a>
+          </div>
         </div>
+
+        <a class="footerLogo" href="index.html">
+          <img src="img/bar_logo.png" alt="" loading="lazy" />
+        </a>
+
+        <a class="footerLogoType" href="index.html">
+          <img src="img/bar_logotype_homepage.png" alt="" loading="lazy" />
+        </a>
+
+        <p class="copyright">copyright Parabolam CORP.-All Rights Reserved</p>
+      </div>
     </footer>
-    
     <!--「ページ内のトップに戻る」ボタン   -->
     <div id="js-pagetop">
-        <span>TOP</span>
+      <span>TOP</span>
     </div>
-    
+
     <!--  スマホ画面のみ　ボトムナビゲーション  固定する　-->
     <div class="bottomNav">
-        <a class="bottomLink" href="menu.html">
-            <img src="img/bottom/menu_logo_bottom.png" alt="メニューページへ">
-        </a>
-        <a class="bottomLink" href="map.html">
-            <img src="img/bottom/map_logo_bottom.png" alt="マップページへ">
-        </a>
-        <a class="bottomLink" href="news.html">
-            <img src="img/bottom/news_logo_bottom.png" alt="ニュースページへ">
-        </a>
+      <a class="bottomLink" href="menu.html">
+        <img src="img/bottom/menu_logo_bottom.png" alt="メニューページへ" />
+      </a>
+      <a class="bottomLink" href="map.html">
+        <img src="img/bottom/map_logo_bottom.png" alt="マップページへ" />
+      </a>
+      <a class="bottomLink" href="news.html">
+        <img src="img/bottom/news_logo_bottom.png" alt="ニュースページへ" />
+      </a>
     </div>
-
-</body>
-
-
-
-
-
+  </body>
 </html>
