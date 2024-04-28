@@ -1,0 +1,68 @@
+.mapBox {
+  margin: 32px 16px;
+}
+.mapSmall {
+  display: block;
+  width: 100%;
+}
+.mapLarge {
+  display: none;
+}
+.mapSmall iframe {
+  width: 100%;
+  border: 0;
+}
+.accessInfo {
+  width: 80%;
+  max-width: 400px;
+  margin: 8px auto;
+  padding-bottom: 32px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.accessInfo a {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  background-color: #c1272d;
+  box-shadow: 3px 3px 0px 0 #e6e6e6;
+  color: #e6e6e6;
+  margin-top: 32px;
+  padding: 16px;
+  line-height: 24px;
+}
+.accessInfo a:hover {
+  box-shadow: 6px 6px 0px 0 #e6e6e6;
+}
+.accessInfo a:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+@media screen and (min-width: 768px) {
+  .mapBox {
+    margin: 64px 16px;
+  }
+  .mapSmall {
+    display: none;
+  }
+  .mapLarge {
+    display: block;
+    margin: 0px auto;
+  }
+  .mapLarge iframe {
+    width: 100%;
+    border: 0;
+  }
+  .accessInfo {
+    width: 540px;
+    margin: 8px auto;
+    padding-bottom: 32px;
+  }
+  .accessInfo a {
+    display: inline-block;
+    width: 100%;
+    margin-top: 32px;
+  }
+}
