@@ -29,6 +29,7 @@
     <!--cssのリンク-->
     <link href="css/destyle.css" rel="stylesheet" type="text/css" />
     <link href="css/base.css" rel="stylesheet" type="text/css" />
+    <link href="css/top.css" rel="stylesheet" type="text/css" />
 
     <!-- fontawesomeのリンク -->
     <link
@@ -59,9 +60,11 @@
   <body>
     <header>
       <div class="headerNav">
-        <a class="navLogo" href="index.html">
-          <img src="img/bar_logo.png" alt="" />
-        </a>
+        <h1>
+          <a class="navLogo" href="index.html">
+            <img src="img/bar_logo.png" alt="" />
+          </a>
+        </h1>
         <a class="navContact" href="contact.html">
           <img src="img/contact_logo.png" alt="お問い合わせ" />
         </a>
@@ -69,7 +72,7 @@
       <div class="bgHeader">
         <div class="headerBox centerBox">
           <a class="boxLogo" href="index.html">
-            <img src="img/bar_logo.png" alt="" />
+            <img src="img/bar_logo.png" alt="Parabolam" />
           </a>
           <div class="headerLink">
             <a class="headerImg" href="menu.html">
@@ -107,15 +110,12 @@
           />
         </div>
       </div>
-
-      <!-- 画面幅768px以上のときは両端を空ける。
-            スマホ画面のときは画面いっぱいに。 -->
-      <div class="mainBox centerBox">
+      <div class="mainBox centerBox top-sv">
         <div class="flex">
           <div class="whiteBox">
             <div class="heading08">
               <span>CHARM01</span>
-              <h2>バーなのに<br />オープンな空間</h2>
+              <div class="top-point">バーなのに<br />オープンな空間</div>
             </div>
             <p>
               ここは「常連客同士で楽しむバー」ではありません。住む場所も国籍も生活スタイルも関係ない。異なったバックグラウンドを持ったもの同士が酒とメシと場を楽しむ空間。それが「BAR
@@ -127,7 +127,7 @@
           <div class="whiteBox">
             <div class="heading08">
               <span>CHARM02</span>
-              <h2>SNS映えする<br />ドリンク&フード</h2>
+              <div class="top-point">SNS映えする<br />ドリンク&フード</div>
             </div>
             <p>
               ただ「今」を楽しむのではない。翌日以降にも残る記憶や記録たち、どうせだったらより良いものにしたい。「BAR
@@ -139,7 +139,7 @@
           <div class="whiteBox">
             <div class="heading08">
               <span>CHARM03</span>
-              <h2>不定期で<br />イベントを開催</h2>
+              <div class="top-point">不定期で<br />イベントを開催</div>
             </div>
             <p>
               不定期で「DJイベント」や「お笑いライブ」などを開催しています。イベント情報は、本サイトのNEWSページまたはPARABOLAMのSNSアカウントで見られます。
@@ -150,7 +150,7 @@
           <div class="whiteBox">
             <div class="heading08">
               <span>CHARM04</span>
-              <h2>心斎橋駅から<br />徒歩4分</h2>
+              <div class="top-point">心斎橋駅から<br />徒歩4分</div>
             </div>
             <p>
               ふらっと立ち寄れる場所です。前もっての予定などはいりません。その日の、そのときのテンションに任せて遊べます。
@@ -163,7 +163,7 @@
     <footer>
       <div class="footerBox centerBox">
         <div class="snsBox">
-          <h3>FOLLOW</h3>
+          <div class="snsBox-text">FOLLOW</div>
           <div class="snsIcon">
             <a class="snsLink">
               <i class="fa-brands fa-3x fa-twitter" alt="twitterロゴ"></i>

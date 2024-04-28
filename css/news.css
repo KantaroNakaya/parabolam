@@ -4,11 +4,12 @@
   border: 1px solid #e6e6e6;
   background-color: rgba(193, 39, 45, 0.5);
 }
-.newsTitle h4 {
+.newsTitle-text {
   text-align: left;
   width: 75%;
   margin: 8px auto;
   line-height: 24px;
+  font-size: 18px;
 }
 .newsImg {
   width: 100%;
@@ -34,9 +35,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .article h4 {
-    font-size: 18px;
   }
   .newsImg {
     width: 100%;

@@ -11,7 +11,7 @@ footer {
 body {
   font-size: 16px;
 }
-h1 {
+.page-heading {
   font-family: "Crete Round", serif;
   font-size: 48px;
   text-align: center;
@@ -20,40 +20,10 @@ h1 {
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
 }
-h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
-  margin: 8px auto;
-  color: #c1272d;
-  text-align: center;
-  padding: 0.25em;
-  border-top: solid 2px #c1272d;
-  border-bottom: solid 2px #c1272d;
-  background: -webkit-repeating-linear-gradient(
-    -45deg,
-    #f0f8ff,
-    #f0f8ff 3px,
-    #e9f4ff 3px,
-    #e9f4ff 7px
-  );
-  background: repeating-linear-gradient(
-    -45deg,
-    #f0f8ff,
-    #f0f8ff 3px,
-    #e9f4ff 3px,
-    #e9f4ff 7px
-  );
-}
-h3 {
+.snsBox-text {
   font-size: 24px;
   text-align: center;
   padding: 32px;
-}
-h4 {
-  font-size: 18px;
-  text-align: center;
-  padding: 0px;
 }
 .centerBox {
   width: 100%;
@@ -279,15 +249,10 @@ footer {
     width: 100%;
   }
 
-  h1 {
+  .page-heading {
     font-size: 48px;
     text-align: center;
     margin: 32px auto;
-  }
-  h2 {
-    font-size: 32px;
-    text-align: center;
-    margin: 32px 0;
   }
   .centerBox {
     max-width: 1080px;

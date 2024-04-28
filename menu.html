@@ -56,9 +56,11 @@
   <body>
     <header>
       <div class="headerNav">
-        <a class="navLogo" href="index.html">
-          <img src="img/bar_logo.png" alt="" />
-        </a>
+        <h1>
+          <a class="navLogo" href="index.html">
+            <img src="img/bar_logo.png" alt="" />
+          </a>
+        </h1>
         <a class="navContact" href="contact.html">
           <img src="img/contact_logo.png" alt="お問い合わせ" />
         </a>
@@ -87,8 +89,7 @@
     </header>
 
     <main>
-      <div class="mainBox centerBox">
-        <!-- ファーストビュー -->
+      <divs class="fv">
         <div class="slider">
           <img class="slider-item" src="img/drink/drink-slide03.jpg" alt="" />
           <img class="slider-item" src="img/drink/drink-slide02.jpg" alt="" />
@@ -97,20 +98,16 @@
         <div class="intro">
           <img
             src="img/intro_image.png"
-            　alt="「非日常空間バーPARABOLAM」のロゴタイプ画像"
+            alt="「非日常空間バーPARABOLAM」のロゴタイプ画像"
           />
         </div>
-
+      </divs>
+      <div class="mainBox centerBox">
         <div class="menuLink">
           <a href="#drink">DRINK</a>
           <a href="#food">FOOD</a>
         </div>
-
-        <!-- ドリンクを紹介 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
-        <h1 id="drink">DRINK MENU</h1>
+        <h2 id="drink" class="page-heading">DRINK MENU</h2>
 
         <div class="drinkLink">
           <a href="#beer">BEER</a>
@@ -286,13 +283,8 @@
             </div>
           </div>
         </div>
-        <!-- ここまでflexクラス -->
 
-        <!-- フードを紹介 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
-        <h1 id="food">FOOD MENU</h1>
+        <h2 id="food" class="page-heading">FOOD MENU</h2>
 
         <!-- Beer -->
         <div class="whiteBox">
@@ -333,7 +325,7 @@
     <footer>
       <div class="footerBox centerBox">
         <div class="snsBox">
-          <h3>FOLLOW</h3>
+          <div class="snsBox-text">FOLLOW</div>
           <div class="snsIcon">
             <a class="snsLink">
               <i class="fa-brands fa-3x fa-twitter" alt="twitterロゴ"></i>
