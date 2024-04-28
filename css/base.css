@@ -100,19 +100,19 @@ h4 {
 .mainBox {
   border-bottom: 1px solid #e6e6e6;
 }
-.slider {
+.fv {
   position: relative;
   z-index: 1;
 }
-
 .slider-item {
   width: 100%;
 }
 .intro {
-  width: 100%;
-  margin: 10% auto;
   position: absolute;
-  top: 80px;
+  width: 75%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 2;
 }
 .intro img {
@@ -342,12 +342,13 @@ footer {
   .headerImg:hover {
     background-color: #333333;
   }
-  .intro {
+  .slider-item {
     width: 100%;
-    max-width: 1080px;
-    margin: 10% auto;
-    position: absolute;
-    top: 160px;
+    height: calc(100vh - 160px) !important;
+    object-fit: cover;
+  }
+  .intro {
+    width: 50%;
     z-index: 2;
   }
   .intro img {
