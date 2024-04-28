@@ -8,7 +8,7 @@
       content="本サイトは架空のバーのサイトです。ポートフォリオ用に制作しました。"
     />
 
-    <title>(架空のバー ) PARABOLAM メニュー</title>
+    <title>(架空のバー) PARABOLAM メニュー</title>
 
     <!--ファビコンのリンク-->
     <link
@@ -27,6 +27,7 @@
     />
 
     <!--cssのリンク-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
     <link href="css/destyle.css" rel="stylesheet" type="text/css" />
     <link href="css/base.css" rel="stylesheet" type="text/css" />
     <link href="css/menu.css" rel="stylesheet" type="text/css" />
@@ -50,6 +51,11 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- slickのスクリプト -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- wow.js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <!-- 自作js -->
     <script src="js/script.js"></script>
   </head>
@@ -120,7 +126,7 @@
 
         <div class="flex">
           <!-- Beer -->
-          <div class="whiteBox" id="beer">
+          <div class="whiteBox wow animate__animated custom-animate" id="beer">
             <div class="heading08">
               <span>Beer</span>
             </div>
@@ -150,7 +156,10 @@
           </div>
 
           <!-- Whisky -->
-          <div class="whiteBox" id="whisky">
+          <div
+            class="whiteBox wow animate__animated custom-animate"
+            id="whisky"
+          >
             <div class="heading08">
               <span>Whisky</span>
             </div>
@@ -176,7 +185,7 @@
           </div>
 
           <!-- Gin -->
-          <div class="whiteBox" id="gin">
+          <div class="whiteBox wow animate__animated custom-animate" id="gin">
             <div class="heading08">
               <span>Gin</span>
             </div>
@@ -202,7 +211,7 @@
           </div>
 
           <!-- Vodka -->
-          <div class="whiteBox" id="vodka">
+          <div class="whiteBox wow animate__animated custom-animate" id="vodka">
             <div class="heading08">
               <span>Vodka</span>
             </div>
@@ -228,7 +237,10 @@
           </div>
 
           <!-- Cocktail -->
-          <div class="whiteBox" id="cocktail">
+          <div
+            class="whiteBox wow animate__animated custom-animate"
+            id="cocktail"
+          >
             <div class="heading08">
               <span>Cocktail</span>
             </div>
@@ -256,7 +268,10 @@
           </div>
 
           <!-- Softdrink -->
-          <div class="whiteBox" id="softdrink">
+          <div
+            class="whiteBox wow animate__animated custom-animate"
+            id="softdrink"
+          >
             <div class="heading08">
               <span>Softdrink</span>
             </div>
@@ -287,7 +302,7 @@
         <h2 id="food" class="page-heading">FOOD MENU</h2>
 
         <!-- Beer -->
-        <div class="whiteBox">
+        <div class="whiteBox wow animate__animated custom-animate">
           <div class="heading08">
             <span>FOOD</span>
           </div>

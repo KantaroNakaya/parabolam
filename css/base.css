@@ -93,9 +93,6 @@ body {
   margin: 32px auto;
   background-color: #e6e6e6;
   color: #333333;
-  transform: translate(0, 90px);
-  transition: 0.7s ease-in;
-  opacity: 0;
 }
 
 .whiteBox p {
@@ -239,6 +236,10 @@ footer {
 }
 .bottomLink img {
   width: 100%;
+}
+.custom-animate {
+  animation: fadeInUp;
+  animation-duration: 1s;
 }
 @media screen and (min-width: 768px) {
   body,

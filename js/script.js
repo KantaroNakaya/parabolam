@@ -23,26 +23,6 @@ $(function () {
     }
   );
 
-  ///////////////////////////////
-  ///////////////////////////////
-  ///////////////////////////////
-
-  //「白い箱を下からふわっとさせる動き」を実装
-  $(window).on("scroll load", function () {
-    $(".whiteBox").each(function () {
-      var ePos = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll > ePos - windowHeight + windowHeight / 5) {
-        $(this).css({ transform: "translate(0,0)", opacity: 1 });
-      }
-    });
-  });
-
-  ///////////////////////////////
-  ///////////////////////////////
-  ///////////////////////////////
-
   // 「ページトップに戻る」ボタンの実装
   var pagetop = $("#js-pagetop");
   pagetop.hide();
