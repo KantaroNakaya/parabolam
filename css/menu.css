@@ -63,6 +63,7 @@
 .scale {
   letter-spacing: -3px;
 }
+
 @media screen and (min-width: 768px) {
   /* DRINKボタンとFOODボタン */
   .menuLink {
