@@ -44,24 +44,24 @@
 }
 /* メニュー内の品名と価格 */
 .menu {
-  width: 100%;
-  display: flex;
+  width: 90%;
+  margin: 0 auto;
 }
-.name {
-  width: 60%;
-  padding-left: 8px;
-  text-align: left;
+.menu tr{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    font-size: 18px;
+    line-height: 32px;
 }
-.price {
-  width: 40%;
-  padding-right: 8px;
-  text-align: right;
+.menu td:nth-child(1){
+    padding-left: 8px;
+    white-space: nowrap;
+    text-align: left;
 }
-.menu p {
-  line-height: 32px;
-}
-.scale {
-  letter-spacing: -3px;
+.menu td:nth-child(2){
+    padding-right: 8px;
+    text-align: right;
 }
 
 @media screen and (min-width: 768px) {
@@ -99,24 +99,5 @@
     padding: 8px 32px;
     background-color: #c1272d;
     border: 1px solid #e6e6e6;
-  }
-
-  /* 品名と価格 */
-  .menu {
-    width: 100%;
-    display: flex;
-  }
-  .name {
-    width: 60%;
-    padding-left: 8px;
-    text-align: left;
-  }
-  .price {
-    width: 40%;
-    padding-right: 8px;
-    text-align: right;
-  }
-  .space {
-    margin-top: 28px;
   }
 }
