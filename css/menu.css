@@ -1,21 +1,86 @@
+.menuContainer {
+    width: 100%;
+    padding-top: 32px;
+}
+.menuCategory {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+.menuSection{
+    padding: 32px 16px;
+}
+.menuContent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+}
 /* メニュー内の品名と価格 */
 .menu {
-  width: 90%;
-  margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
 }
-.menu tr{
+.menu tr {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
     font-size: 18px;
     line-height: 32px;
 }
-.menu td:nth-child(1){
+.menu td:nth-child(1) {
     padding-left: 8px;
     white-space: nowrap;
     text-align: left;
 }
-.menu td:nth-child(2){
+.menu td:nth-child(2) {
     padding-right: 8px;
     text-align: right;
+}
+.menuCard {
+    width: 100%;
+    margin: 32px auto;
+    padding-top: 16px;
+    background-color: #e6e6e6;
+    color: #333333;
+}
+
+.menuCard p {
+    max-width: 312px;
+    width: 80%;
+    margin: 8px auto;
+    line-height: 24px;
+}
+.menuCard img {
+    width: 100%;
+    padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .menuContainer {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    .menuSection{
+        padding: 32px 0;
+    }
+    .menuContent {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+    .menuCard {
+      margin: 32px auto;
+      background-color: #e6e6e6;
+      color: #333333;
+    }
+    .menuCard p {
+      width: 90%;
+      max-width: 540px;
+      margin: 8px auto;
+      font-size: 18px;
+    }
+    .menuCard img {
+        width: 100%;
+        padding: 16px;
+    }
 }
