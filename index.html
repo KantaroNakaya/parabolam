@@ -42,7 +42,7 @@
         <link
             rel="stylesheet"
             type="text/css"
-            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         />
 
         <!-- fontawesomeのスクリプト -->
@@ -52,8 +52,8 @@
         ></script>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <!-- slickのスクリプト -->
-        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!-- Swiperのスクリプト -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <!-- wow.js -->
         <script src="js/wow.min.js"></script>
         <script>
@@ -97,22 +97,30 @@
         </header>
         <main>
             <div class="fv">
-                <div class="slider">
-                    <img
-                        class="slider-item"
-                        src="img/first-view/bar_coolBg.jpg"
-                        alt=""
-                    />
-                    <img
-                        class="slider-item"
-                        src="img/first-view/wineBottles.jpg"
-                        alt=""
-                    />
-                    <img
-                        class="slider-item"
-                        src="img/first-view/dj_event.jpg"
-                        alt=""
-                    />
+                <div class="slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img
+                                class="slider-item"
+                                src="img/first-view/bar_coolBg.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                class="slider-item"
+                                src="img/first-view/wineBottles.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                class="slider-item"
+                                src="img/first-view/dj_event.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
                 </div>
 
                 <div class="intro">

@@ -1,45 +1,32 @@
 $(function () {
-  //ファーストビューのスライド実装
-  $(".slider").slick({
-    fade: true, //切り替えをフェードで行う。初期値はfalse。
-    autoplay: true, //自動的に動き出すか。初期値はfalse。
-    autoplaySpeed: 1500, //次のスライドに切り替わる待ち時間
-    speed: 1000, //スライドの動きのスピード。初期値は300。
-    infinite: true, //スライドをループさせるかどうか。初期値はtrue。
-    slidesToShow: 1, //スライドを画面に3枚見せる
-    slidesToScroll: 1, //1回のスクロールで3枚の写真を移動して見せる
-    pauseOnFocus: false, //フォーカスで一時停止を無効
-    pauseOnHover: false, //マウスホバーで一時停止を無効
-    pauseOnDotsHover: false, //ドットナビゲーションをマウスホバーで一時停止を無効
-    prevArrow: '<div class="slick-prev"></div>', //矢印部分PreviewのHTMLを変更
-    nextArrow: '<div class="slick-next"></div>', //矢印部分NextのHTMLを変更
-  });
+    // スライダーの実装
+    const swiper = new Swiper(".slider", {
+        effect: "fade",
+        loop: true,
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+        },
+        speed: 1000,
+    });
 
-  //スマホ用：スライダーをタッチしても止めずにスライドをさせる
-  $(".slider").on(
-    "touchmove",
-    function (event, slick, currentSlide, nextSlide) {
-      $(".slider").slick("slickPlay");
-    }
-  );
-
-  // 「ページトップに戻る」ボタンの実装
-  var pagetop = $("#js-pagetop");
-  pagetop.hide();
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 500) {
-      pagetop.fadeIn();
-    } else {
-      pagetop.fadeOut();
-    }
-  });
-  pagetop.click(function () {
-    $("body, html").animate(
-      {
-        scrollTop: 0,
-      },
-      500
-    );
-    return false;
-  });
+    // 「ページトップに戻る」ボタンの実装
+    var pagetop = $("#js-pagetop");
+    pagetop.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 500) {
+            pagetop.fadeIn();
+        } else {
+            pagetop.fadeOut();
+        }
+    });
+    pagetop.click(function () {
+        $("body, html").animate(
+            {
+                scrollTop: 0,
+            },
+            500
+        );
+        return false;
+    });
 });
