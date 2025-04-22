@@ -1,3 +1,22 @@
+.fv {
+    position: relative;
+    z-index: 1;
+}
+.slider-item {
+    width: 100%;
+}
+.intro {
+    position: absolute;
+    width: 75%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.intro img {
+    width: 100%;
+}
+
 .top-sv {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -18,7 +37,7 @@
     line-height: 24px;
 }
 
-.topCard__text--title span{
+.topCard__text--title span {
     padding-bottom: 2px;
     background-image: linear-gradient(#c1272d, #c1272d);
     background-size: 0 4px;
@@ -49,6 +68,18 @@
 }
 
 @media screen and (min-width: 768px) {
+    .slider-item {
+        width: 100%;
+        height: calc(100vh - 160px) !important;
+        object-fit: cover;
+    }
+    .intro {
+        width: 50%;
+        z-index: 2;
+    }
+    .intro img {
+        width: 100%;
+    }
     .top-sv {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

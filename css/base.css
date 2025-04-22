@@ -73,24 +73,6 @@ img{
 .mainBox {
   border-bottom: 1px solid #e6e6e6;
 }
-.fv {
-  position: relative;
-  z-index: 1;
-}
-.slider-item {
-  width: 100%;
-}
-.intro {
-  position: absolute;
-  width: 75%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-.intro img {
-  width: 100%;
-}
 .whiteBox {
   width: 90%;
   margin: 32px auto;
@@ -303,18 +285,6 @@ footer {
   }
   .headerImg:hover {
     background-color: #333333;
-  }
-  .slider-item {
-    width: 100%;
-    height: calc(100vh - 160px) !important;
-    object-fit: cover;
-  }
-  .intro {
-    width: 50%;
-    z-index: 2;
-  }
-  .intro img {
-    width: 100%;
   }
   .whiteBox {
     width: 45%;
