@@ -6,28 +6,19 @@
 .topCard {
     width: 90%;
     margin: 32px auto;
-    padding-top: 16px;
+    padding: 16px 0;
     background-color: #e6e6e6;
     color: #333333;
 }
 
-.topCard p {
+.topCard__text {
     max-width: 312px;
     width: 80%;
     margin: 8px auto;
     line-height: 24px;
 }
-.topCard img {
-    width: 100%;
-    padding: 16px;
-}
-.topCard {
-    margin: 32px auto;
-    background-color: #e6e6e6;
-    color: #333333;
-}
 
-.top-point {
+.topCard__text--title {
     display: block;
     max-width: 312px;
     width: 80%;
@@ -55,6 +46,15 @@
         #e9f4ff 7px
     );
 }
+.topCard__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72%;
+    margin: 0 auto;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
 
 @media screen and (min-width: 768px) {
     .top-sv {
@@ -62,8 +62,7 @@
     }
 
     .topCard {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
         width: 100%;
         max-width: 720px;
         margin: 32px auto;
@@ -75,29 +74,20 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .topCard__image {
-        display: flex;
-        justify-content: center;
         align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        padding: 16px;
     }
-
-    .topCard p {
-        width: 90%;
-        max-width: 540px;
-        margin: 8px auto;
-    }
-    .topCard img {
-        width: 100%;
-        aspect-ratio: 4/3;
-        object-fit: cover;
-    }
-    .top-point {
-        margin: 8px auto 32px;
+    .topCard__text--title {
+        margin: 0px auto 32px;
         font-size: 22px;
         text-align: center;
     }
-    .top-desc {
+    .topCard__text--desc {
         font-size: 18px;
+    }
+    .topCard__image {
+        width: 50%;
     }
 }

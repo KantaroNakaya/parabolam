@@ -11,6 +11,9 @@ footer {
 body {
   font-size: 16px;
 }
+img{
+    max-width: 100%;
+}
 .page-heading {
   font-family: "Crete Round", serif;
   font-size: 48px;
