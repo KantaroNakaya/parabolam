@@ -32,9 +32,6 @@ header{
   text-align: center;
   padding: 32px;
 }
-.centerBox {
-  width: 100%;
-}
 .headerNav {
   width: 100%;
   height: 100%;
@@ -54,9 +51,6 @@ header{
   top: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
-.navLogo img {
-  width: 100%;
-}
 .navLogo :hover {
   background-color: #333333;
 }
@@ -67,9 +61,6 @@ header{
   right: 0%;
   top: 50%;
   transform: translateY(-50%) translateX(-10%);
-}
-.navContact img {
-  width: 100%;
 }
 .navContact :hover {
   background-color: #333333;
@@ -92,7 +83,6 @@ header{
   line-height: 24px;
 }
 .whiteBox img {
-  width: 100%;
   padding: 16px;
 }
 .heading08 {
@@ -170,9 +160,6 @@ footer {
   width: 128px;
   margin: 0 auto;
   padding: 16px 0px;
-}
-.footerLogoType img {
-  width: 100%;
 }
 .copyright {
   font-size: 0.7em;
@@ -305,10 +292,6 @@ footer {
   footer {
     margin-bottom: 8px;
   }
-
-  .footerBox {
-    width: 100%;
-  }
   .snsBox {
     padding: 16px 0px;
     border-bottom: 1px solid #e6e6e6;
@@ -334,9 +317,6 @@ footer {
     margin: 0 auto;
     padding: 16px 0px;
     border-bottom: 1px solid #e6e6e6;
-  }
-  .footerLogo img {
-    width: 100%;
   }
   .footerLogoType {
     display: block;
