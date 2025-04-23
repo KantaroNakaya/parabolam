@@ -4,6 +4,8 @@
 }
 .slider-item {
     width: 100%;
+    height: calc(100vh - ( 80px +  16.65vw )) !important;
+    object-fit: cover;
 }
 .intro {
     position: absolute;
@@ -69,9 +71,7 @@
 
 @media screen and (min-width: 768px) {
     .slider-item {
-        width: 100%;
-        height: calc(100vh - 160px) !important;
-        object-fit: cover;
+        height: calc(100vh - 100px) !important;
     }
     .intro {
         width: 50%;

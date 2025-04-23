@@ -14,6 +14,10 @@ body {
 img{
     max-width: 100%;
 }
+header{
+    height: 80px;
+}
+
 .page-heading {
   font-family: "Crete Round", serif;
   font-size: 48px;
@@ -33,7 +37,7 @@ img{
 }
 .headerNav {
   width: 100%;
-  height: 80px;
+  height: 100%;
   background-color: #c1272d;
   display: flex;
   position: relative;
@@ -236,6 +240,9 @@ footer {
     font-size: 24px;
     width: 100%;
   }
+  header {
+    height: 100px;
+  }
 
   .page-heading {
     font-size: 48px;
@@ -254,6 +261,7 @@ footer {
   .headerBox {
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 8px 4%;
@@ -261,27 +269,21 @@ footer {
   }
 
   .boxLogo {
-    width: 10%;
+    width: 80px;
     background-color: #ffffff12;
     aspect-ratio: 1/1;
-  }
-  .boxLogo img {
-    width: 100%;
   }
   .boxLogo:hover {
     background-color: #333333;
   }
   .headerLink {
     display: grid;
-    width: 40%;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 4%;
+    grid-gap: 16px;
   }
   .headerImg {
+    width: 80px;
     background-color: #ffffff12;
-  }
-  .headerImg img {
-    width: 100%;
   }
   .headerImg:hover {
     background-color: #333333;
@@ -299,7 +301,6 @@ footer {
     font-size: 18px;
   }
   .whiteBox img {
-    width: 100%;
     padding: 16px;
   }
   .flex {
@@ -349,9 +350,6 @@ footer {
     width: 128px;
     margin: 0 auto;
     padding: 16px 0px;
-  }
-  .footerLogoType img {
-    width: 100%;
   }
   .copyright {
     font-size: 0.7em;
