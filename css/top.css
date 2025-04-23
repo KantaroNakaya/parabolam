@@ -33,10 +33,12 @@
 }
 
 .topCard__text {
-    max-width: 312px;
-    width: 80%;
-    margin: 8px auto;
+    margin: 8px auto 32px;
     line-height: 24px;
+}
+.topCard__text--title{
+    margin-bottom: 24px;
+    text-align: center;
 }
 
 .topCard__text--title span {
@@ -45,8 +47,8 @@
     background-size: 0 4px;
     background-position: bottom right;
     background-repeat: no-repeat;
-    transition: background-size 0.3s ease-out;
-    font-size: 18px;
+    transition: background-size 0.8s ease-out;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     line-height: 1.5;
@@ -54,6 +56,12 @@
 .topCard__text--title span.inview {
     background-size: 100% 4px;
     background-position: bottom left;
+}
+.topCard__text--desc {
+    width: 80%;
+    max-width: 312px;
+    margin: 0 auto;
+    font-size: 16px;
 }
 .topCard__image {
     display: flex;
@@ -84,7 +92,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         width: 90%;
-        max-width: 800px;
+        max-width: 1000px;
         margin: 56px auto 0;
     }
     .topCard1 {
@@ -100,7 +108,7 @@
     .topCard {
         display: flex;
         margin: 56px auto;
-        padding: 3.2%;
+        padding: 9%;
         background-color: #e6e6e6;
         color: #333333;
         position: relative;
@@ -111,13 +119,14 @@
         margin: 0 auto;
     }
     .topCard__text--title {
-        width: 64%;
         max-width: unset;
         margin: 0px auto 32px;
-        font-size: 22px;
-        text-align: center;
+    }
+    .topCard__text--title span {
+        font-size: 24px;
     }
     .topCard__text--desc {
+        max-width: unset;
         font-size: 18px;
     }
     .topCard__image {
