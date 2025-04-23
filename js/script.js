@@ -36,7 +36,7 @@ $(window).scroll(function () {
         var hit = $(this).offset().top;
         var scroll = $(window).scrollTop();
         var wHeight = $(window).height();
-        var customTop = 100;
+        var customTop = 140;
         if (hit + customTop < wHeight + scroll) {
             $(this).addClass("inview");
         }
