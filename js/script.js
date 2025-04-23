@@ -9,36 +9,36 @@ $(function () {
         },
         speed: 1000,
     });
+});
 
-    // 「ページトップに戻る」ボタンの実装
-    var pagetop = $("#js-pagetop");
-    pagetop.hide();
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 500) {
-            pagetop.fadeIn();
-        } else {
-            pagetop.fadeOut();
-        }
-    });
-    pagetop.click(function () {
-        $("body, html").animate(
-            {
-                scrollTop: 0,
-            },
-            500
-        );
-        return false;
-    });
+// 「ページトップに戻る」ボタンの実装
+var pagetop = $("#js-pagetop");
+pagetop.hide();
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 500) {
+        pagetop.fadeIn();
+    } else {
+        pagetop.fadeOut();
+    }
+});
+pagetop.click(function () {
+    $("body, html").animate(
+        {
+            scrollTop: 0,
+        },
+        500
+    );
+    return false;
 });
 
 $(window).scroll(function () {
-    $('.topCard__text--title span').each(function () {
-      var hit = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var wHeight = $(window).height();
-      var customTop = 100;
-      if (hit + customTop < wHeight + scroll) {
-        $(this).addClass("inview");
-      }
+    $(".animate-line").each(function () {
+        var hit = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var wHeight = $(window).height();
+        var customTop = 100;
+        if (hit + customTop < wHeight + scroll) {
+            $(this).addClass("inview");
+        }
     });
-  });
+});

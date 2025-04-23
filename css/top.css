@@ -40,8 +40,7 @@
     margin-bottom: 24px;
     text-align: center;
 }
-
-.topCard__text--title span {
+.animate-line {
     padding-bottom: 2px;
     background-image: linear-gradient(#c1272d, #c1272d);
     background-size: 0 4px;
@@ -53,7 +52,7 @@
     text-align: center;
     line-height: 1.5;
 }
-.topCard__text--title span.inview {
+.animate-line.inview {
     background-size: 100% 4px;
     background-position: bottom left;
 }
@@ -122,7 +121,7 @@
         max-width: unset;
         margin: 0px auto 32px;
     }
-    .topCard__text--title span {
+    .animate-line {
         font-size: 24px;
     }
     .topCard__text--desc {
