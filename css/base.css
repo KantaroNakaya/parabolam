@@ -179,28 +179,21 @@ footer {
   color: #e6e6e6;
   text-align: center;
 }
-#js-pagetop {
+.pagetop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   width: 10vw;
   height: 10vw;
   background-color: #f6ad3c;
   border: 1px solid #e6e6e6;
-  color: #000;
-  bottom: 18vw;
-  right: 2vw;
+  bottom: 20vw;
+  right: 4vw;
   cursor: pointer;
-}
-
-#js-pagetop span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: 3vw;
+  font-size: 3.6vw;
   font-weight: bold;
+  color: #000;
 }
 
 .bottomNav {
@@ -357,24 +350,13 @@ footer {
     text-align: center;
   }
 
-  #js-pagetop {
-    position: fixed;
+  .pagetop {
     width: 60px;
     height: 60px;
     bottom: 10px;
     right: 20px;
     cursor: pointer;
-  }
-
-  #js-pagetop span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 24px;
+    font-size: 2vw;
   }
   .bottomNav {
     display: none;
