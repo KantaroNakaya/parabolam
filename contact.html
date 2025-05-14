@@ -97,55 +97,46 @@
         <h2 class="page-heading">CONTACT</h2>
         <div class="Form">
           <div class="Form-Item">
-            <p class="Form-Item-Label">
-              <span class="Form-Item-Label-Required">必須</span>
-              <span>ご用件</span>
-            </p>
-            <input
-              type="text"
-              class="Form-Item-Input"
-              placeholder="ご用件をお書きください。"
-            />
-          </div>
-          <div class="Form-Item">
-            <p class="Form-Item-Label">
-              <span class="Form-Item-Label-Required">必須</span>
+            <label class="Form-Item-Label" for="name">
               <span>お名前</span>
-            </p>
+              <span class="Form-Item-Label-Required">必須</span>
+            </label>
             <input
               type="text"
+              id="name"
               class="Form-Item-Input"
               placeholder="例）山田太郎"
             />
           </div>
           <div class="Form-Item">
-            <p class="Form-Item-Label">
-              <span class="Form-Item-Label-Required">必須</span>
+            <label class="Form-Item-Label" for="phone">
               <span>電話番号</span>
-            </p>
+            </label>
             <input
               type="text"
+              id="phone"
               class="Form-Item-Input"
               placeholder="例）000-0000-0000"
             />
           </div>
           <div class="Form-Item">
-            <p class="Form-Item-Label">
-              <span class="Form-Item-Label-Required">必須</span>
+            <label class="Form-Item-Label" for="email">
               <span>メールアドレス</span>
-            </p>
+              <span class="Form-Item-Label-Required">必須</span>
+            </label>
             <input
               type="email"
+              id="email"
               class="Form-Item-Input"
               placeholder="例）example@gmail.com"
             />
           </div>
           <div class="Form-Item">
-            <p class="Form-Item-Label isMsg">
-              <span class="Form-Item-Label-Required">必須</span>
+            <label class="Form-Item-Label isMsg" for="message">
               <span>お問い合わせ内容</span>
-            </p>
-            <textarea class="Form-Item-Textarea"></textarea>
+              <span class="Form-Item-Label-Required">必須</span>
+            </label>
+            <textarea id="message" class="Form-Item-Textarea"></textarea>
           </div>
           <div class="contactBtn">
             <input type="submit" class="Form-Btn" value="送信できません" />
